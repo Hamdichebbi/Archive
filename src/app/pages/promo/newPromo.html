@@ -1,0 +1,98 @@
+<form action="" method="post">
+     <div class="col-md-6">
+      <div
+          ba-panel
+          ba-panel-title="New Promo"
+          ba-panel-class="with-scroll">
+<!--        Formulaire standard d'une nouvelle Venue-->
+
+
+  <div class="row">
+   <div class="col-md-12">
+    <div class="form-group">
+      <label for="inputPromoName">Name</label>
+      <input type="text" class="form-control" id="inputFirstName" placeholder="Promo Name">
+    </div>
+  </div>
+          </div>
+
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label for="inputCode">Code</label>
+      <input type="text" class="form-control" id="inputCode" placeholder="Code">
+    </div>
+      </div>
+      </div>
+
+      <div class="row">
+    <div class='col-md-6'>
+        <div class="form-group">
+            <div class='input-group date'>
+               <label for="inputStartDate">Start Date</label>
+                <input type='date' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class='col-md-6'>
+        <div class="form-group">
+            <div class='input-group date'>
+               <label for="inputStartDate">Finish Date</label>
+                <input type='date' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <div class="row">
+  <div class="col-sm-6">
+    <div class="form-group">
+      <label for="inputDiscout">Discout</label>
+      <input type="text" class="form-control" id="inputDiscout" placeholder="Discout">
+    </div>
+      </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-sm-6">
+    <div class="form-group">
+    <div class="checkbox">
+     <label class="custom-checkbox">
+     <input type="checkbox" id="checkboxError" ng-model="checked" ng-init="checked=false"   value="option1"/>
+
+       <span>Unlimited</span>
+       </label>
+       <span ng-if="checked">
+
+    <div class="form-group">
+
+      <input type="text" class="form-control" id="inputQteUn" placeholder="Quantity"/>
+
+      </div>
+</span>
+        </div>
+    </div>
+          </div>
+
+      </div>
+
+           <button type="submit" class="btn btn-primary">Send</button>
+
+</div>
+  </div>
+</form>
+
+
+
+
+<!--        Fin Formulaire standard d'une nouvelle Venue-->
